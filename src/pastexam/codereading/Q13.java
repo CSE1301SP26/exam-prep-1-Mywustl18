@@ -11,10 +11,20 @@ public class Q13 {
 	 * a TA to go through it with you!
 	 */
 	public static void main(String[] args) {
-		for(int i = 0; i < 3; i++) {
-			if(i / 2 == 0) {
+		for(int i = 0; i < 5; i++) {
+			if(i / 2 == 0 || i/2 == 1) {
 				System.out.println(i);
 			}
 		}
 	}
 }
+/*
+i i/2
+0 0
+1 0
+2 1
+3 1
+4 2
+
+printed out 0, 1, 2, 3
+*/
